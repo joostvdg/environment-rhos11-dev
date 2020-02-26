@@ -1,0 +1,7 @@
+dependencies:
+- host: github.com
+  owner: joostvdg
+  repo: jx-go-rhos311-1
+  url: https://github.com/joostvdg/jx-go-rhos311-1.git
+  version: ""
+  versionURL: ""
