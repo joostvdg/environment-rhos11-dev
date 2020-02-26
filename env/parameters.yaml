@@ -1,0 +1,15 @@
+adminUser:
+  password: local:rhos11/adminUser:password
+  username: admin
+docker:
+  email: joostvdg@gmail.com
+  password: local:rhos11/docker:password
+  url: https://index.docker.io/v1/
+  username: caladreas
+enableDocker: true
+pipelineUser:
+  email: joostvdg@gmail.com
+  token: local:rhos11/pipelineUser:token
+  username: joostvdg
+prow:
+  hmacToken: local:rhos11/prow:hmacToken
