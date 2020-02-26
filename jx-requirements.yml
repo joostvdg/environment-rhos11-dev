@@ -34,7 +34,7 @@ environments:
       enabled: false
       production: false
   key: staging
-  repository: env-jx-os311-staging
+  repository: env-rhos311-staging
 - ingress:
     domain: ""
     externalDNS: false
@@ -44,7 +44,7 @@ environments:
       enabled: false
       production: false
   key: production
-  repository: env-jx-os311-prod
+  repository: env-rhos311-prod
 gitops: true
 ingress:
   domain: openshift.kearos.net
