@@ -6,10 +6,10 @@ cluster:
   clusterName: rhos11
   devEnvApprovers:
   - joostvdg
-  environmentGitOwner: joostvdg
-  gitKind: github
-  gitName: github
-  gitServer: https://github.com
+  gitKind: bitbucketserver
+  gitName: bs
+  gitServer: http://bitbucket-jx.openshift.kearos.net
+  environmentGitOwner: jxrhos
   namespace: jx
   provider: kubernetes
   registry: docker.io
@@ -26,7 +26,7 @@ environments:
   key: dev
   repository: environment-rhos11-dev
 - ingress:
-    domain: ""
+    domain: "staging.openshift.kearos.net"
     externalDNS: false
     namespaceSubDomain: ""
     tls:
@@ -78,4 +78,4 @@ velero:
 versionStream:
   ref: v1.0.361
   url: https://github.com/jenkins-x/jenkins-x-versions.git
-webhook: prow
+webhook: lighthouse
