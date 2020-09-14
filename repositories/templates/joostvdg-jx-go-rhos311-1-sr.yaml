@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: joostvdg
+    provider: github
+    repository: jx-go-rhos311-1
+  name: joostvdg-jx-go-rhos311-1
+spec:
+  description: Imported application for joostvdg/jx-go-rhos311-1
+  httpCloneURL: https://github.com/joostvdg/jx-go-rhos311-1.git
+  org: joostvdg
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: jx-go-rhos311-1
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/joostvdg/jx-go-rhos311-1.git
